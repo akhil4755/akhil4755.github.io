@@ -7,7 +7,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './component/home';
+
+import Achievments from './components/achievments';
+
 
 
 function App() {
@@ -37,10 +39,10 @@ function App() {
         <p></p>
       </div>
       <Switch>
-              <Route exact path='/' component={Home}></Route>
-              <Route exact path='/projects' component={Projects}></Route>
+              {/* <Route exact path='/' component={Home}></Route> */}
+              {/* <Route exact path='/projects' component={Projects}></Route> */}
               <Route exact path='/achievments' component={Achievments}></Route>
-              <Route exact path='/experience' component={Experiences}></Route>
+              {/* <Route exact path='/experience' component={Experiences}></Route> */}
             </Switch>
     </div>
     </Router>
