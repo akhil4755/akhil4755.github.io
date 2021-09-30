@@ -24,6 +24,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+  text-decoration: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
