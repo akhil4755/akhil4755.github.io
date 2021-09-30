@@ -1,22 +1,51 @@
 .App {
-  text-align: left;
-  padding: 8% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 60vw;
 }
-.details{
-  text-align: left;
-  padding-top: 10%;
-  padding-left: 50%;
+.details {
+  margin-left: 64px;
 }
-.name{
-  font-size: 50px;
+.name {
+  font-size: 72px;
   font-weight: 600;
 }
-img{
-  float: left;
+.imgDP img {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 40%;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #ff0;
+  transition: all .5s ease;
+}
+ul li a:hover {
+  color: #ff0;
+  padding: 0 8px;
+  padding-bottom: 2px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
