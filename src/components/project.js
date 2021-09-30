@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <img src={me}></img>
       <div className="details">
         <h3>PROJECTS</h3>
             <ul>

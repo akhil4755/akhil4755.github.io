@@ -8,7 +8,8 @@ import {
   Link
 } from "react-router-dom";
 
-import Achievments from './components/achievments';
+import achievments from './components/achievments';
+import projects from './components/project';
 
 
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <img src={me}></img>
+      <img src={me} alt="Personal" ></img>
       <div className="details">
         <div>
         <li>
@@ -40,8 +41,8 @@ function App() {
       </div>
       <Switch>
               {/* <Route exact path='/' component={Home}></Route> */}
-              {/* <Route exact path='/projects' component={Projects}></Route> */}
-              <Route exact path='/achievments' component={Achievments}></Route>
+              <Route exact path='/projects' component={projects}></Route>
+              <Route exact path='/achievments' component={achievments}></Route>
               {/* <Route exact path='/experience' component={Experiences}></Route> */}
             </Switch>
     </div>
