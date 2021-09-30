@@ -5,6 +5,7 @@ function achivements() {
   return (
     <div className="App">
       <div className="details">
+          <h2>Achivements</h2>
         <ul>
             <li>Awarded for TCS MicroDegree certification Examination 2017</li>
             <li>Umpired for All Kerala Table Tennis Meet held at Regional Sports Center among National Umpires</li>
