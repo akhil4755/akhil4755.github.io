@@ -5,7 +5,7 @@ import me from './assets/me.jpg';
 function App() {
   return (
     <div className="App">
-      <div><img src={me} alt="profile picture" /></div>
+      <div className="imgDP"><img src={me} alt="profile picture" /></div>
       <div className="details">
         <h3>Hello I'm</h3>
         <div className="name">Akhil D</div>
