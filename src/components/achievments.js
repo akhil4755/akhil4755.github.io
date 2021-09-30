@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
-function achivements() {
+function Achievments() {
   return (
     <div className="App">
       <div className="details">
@@ -19,4 +19,4 @@ function achivements() {
   );
 }
 
-export default achivements;
+export default Achievments;
