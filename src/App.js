@@ -4,6 +4,7 @@ import me from "./assets/me.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Achievments from "./components/achievments";
+import Projects from "./components/project";
 import Home from "./components/Home";
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
         </div>
         <Switch>
           <Route exact path='/' component={Home}></Route>
-          {/* <Route exact path='/projects' component={Projects}></Route> */}
+          <Route exact path='/projects' component={Projects}></Route>
           <Route exact path="/achievments" component={Achievments}></Route>
           {/* <Route exact path='/experience' component={Experiences}></Route> */}
         </Switch>
